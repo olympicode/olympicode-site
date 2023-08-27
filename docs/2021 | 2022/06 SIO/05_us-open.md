@@ -27,6 +27,7 @@ Važe sledeće rekurentne veze:
 $$
 dp[i][1] = \max(dp[l][1]+dp[r][1]+1, dp[l][1]+dp[r][2]+1, dp[l][2]+dp[r][1])
 $$
+
 $$
 dp[i][2] = \max(dp[l][2]+dp[r][2]+1, dp[l][1]+dp[r][2]+1, dp[l][2]+dp[r][1])
 $$ 
