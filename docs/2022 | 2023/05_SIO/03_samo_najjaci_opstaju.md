@@ -1,8 +1,8 @@
-﻿# 3 - Najslabija karika (Samo najjači opstaju)
+﻿# 3 - Najslabija karika
 
 | Autor | Tekst i test primeri | Analiza rеšenja | Testiranje |
 |:-:|:-:|:-:|:-:|
-| Pavle Martinović | Petlja i Pavle Martinović | Pavle Martinović | Aleksa Milisavljević |
+| Pavle Martinović | Pavle Martinović | Pavle Martinović | Aleksa Milisavljević |
 
 ## Rešenje kada $N \leq 10$, $Q\leq100$
 
