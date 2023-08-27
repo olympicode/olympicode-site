@@ -1,0 +1,20 @@
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+h2 {
+    font-size: 14px;
+}
+
+td {
+    align: center;
+}
+
+.md-typeset__table {
+    text-align: center;
+}
+
+
+.md-typeset__scrollwrap {
+    text-align: center;
+}
