@@ -1,13 +1,24 @@
-site_name: OlympiCode/Takprog arhiva
+site_name: OlympiCode
 
 theme:
   name: material 
   language: sh
+  features:
+    - navigation.tabs
+    - toc.follow
+    - content.code.copy
   
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 extra_javascript:
   - javascripts/mathjax.js
