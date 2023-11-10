@@ -5,7 +5,7 @@ hide:
 # Takprog Arhiva
 ## Nezvanična arhiva srpskih srednjoškolskih takmičenja iz informatike
 
-Ovde možete naći tekstove, tekstualna i kodna rešenja zadataka sa srednjoškolskih takmičenja iz informatike od sezone 2013/2014. nadalje. Plan je da arhiva bude dopunjena novim takmičenjima, dok će sezone pre 2013/2014. biti dodate vremenom (ali ne uskoro). Može se smatrati da se sezone u ovoj arhivi mogu smatrati *modernom* erom takmičenja. Starije sezone možete naći na [starom Takprogu](https://staritakprog.dms.rs).
+Ovde možete naći tekstove, tekstualna i kodna rešenja zadataka sa srednjoškolskih takmičenja iz informatike od sezone 2013/2014. nadalje. Plan je da arhiva bude dopunjena novim takmičenjima, tako da se ova arhiva može smatrati arhivom *moderne* ere takmičenja. Starije sezone možete naći na [starom Takprogu](https://staritakprog.dms.rs).
 
 Arhivu treba posmatrati kao *work in progress* - neka rešenja nedostaju (uglavnom iz starijih sezona), nekima nedostaju podzadaci, neki prosto mogu biti bolji uz bolju formulaciju ili slike. Iako ćemo nastaviti i mi da radimo na arhivi, potrebna nam je i pomoć šireg društva takmičarskog programiranja (u arhivi je već preko 300 zadataka!). Zato, osećajte se slobodno da doprinesete arhivi, koliko god sitne ili ogromne promene bile - više informacija možete pronaći na [zvaničnom GitHubu](https://github.com/olympicode/olympicode-site).
 
