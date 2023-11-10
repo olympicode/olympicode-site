@@ -14,6 +14,23 @@ td {
     text-align: center;
 }
 
+.md-header--lifted, .md-header {
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+}
+
+.md-tabs {
+    background-color: transparent;
+}
+
+.md-tabs__item {
+    height: 1.5rem
+}
+
+.md-tabs__link {
+    margin-top: 0.2rem;
+}
 
 .md-typeset__scrollwrap {
     text-align: center;

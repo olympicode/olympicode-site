@@ -5,6 +5,7 @@ theme:
   language: sh
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - toc.follow
     - content.code.copy
   
