@@ -1,0 +1,7 @@
+Možemo zanemariti odbijanje klikera: ako se dva klikera odbiju, pozicija koja se dobija je identična kao da su se mimoišli. Koristeći ovo, za fiksno T je lako odrediti dve moguće pozicije u koje svaki kliker može stići.
+
+Postoji 2N kandidata za rešenje: za prvi kliker na N načina možemo fiksirati prekidač na kom će se naći. Do njega može stići na dva načina – ili direktno ili odbijanjem od zida (dovoljno je odabrati zid za koji brže stiže do prekidača, jer ako može da se reši za jedan zid, može i za drugi tako što obrnemo sve smerove). Ostaje samo da proverimo da li se mogu odabrati smerovi za fiksno T tako da svi klikeri završe na prekidačima.
+
+Konstruišimo bipartitni graf u kom čvorovi sa jedne strane predstavljaju klikere, a sa druge strane prekidače. Grana od klikera do prekidača postoji ukoliko taj kliker može da bude na tom prekidaču za T sekundi (dakle, svaki kliker ima najviše dve izlazne grane). Očito je da rešenje postoji ukoliko možemo upariti svaki kliker sa po jednim prekidačem, odnosno ukoliko postoji perfect matching na ovom grafu, što možemo proveriti u O(N) (jer postoji O(N) čvorova i grana).
+
+Ovaj graf ima jednu specijalnu osobinu: stepen svakog čvora je najviše dva. Samim tim, sačinjen je od izolovanih čvorova, puteva i ciklusa. Ako postoji izolovan čvor, matching ne postoji. U suprotnom, potreban i dovoljan uslov je da su dužine svih puteva parne (ciklusi sigurno imaju matching), tako da je dovoljno proveriti ovo umesto “redovnog” matching algoritma.
