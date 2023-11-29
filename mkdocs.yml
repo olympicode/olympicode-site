@@ -1,13 +1,20 @@
 site_name: OlympiCode
 
 theme:
+
   name: material 
   language: sh
+  logo: assets/logo-icon.png
+  favicon: assets/favicon.png
+  palette:
+    primary: custom
+    accent: custom
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - toc.follow
     - content.code.copy
+  custom_dir: overrides
   
 markdown_extensions:
   - pymdownx.arithmatex:

@@ -1,3 +1,9 @@
+:root {
+    --md-primary-fg-color:        #1E003E;
+    --md-primary-fg-color--light: #1E003E;
+    --md-primary-fg-color--dark:  #1E003E;
+}
+
 h1 {
     margin-bottom: 30px;
     text-align: center;
@@ -14,16 +20,6 @@ td {
     text-align: center;
 }
 
-.md-header--lifted, .md-header {
-    background-image: url("background.jpg");
-    background-size: 100%;
-    background-position-y: 50%;
-}
-
-.md-tabs {
-    background-color: transparent;
-}
-
 .md-tabs__item {
     height: 1.5rem
 }
@@ -34,4 +30,18 @@ td {
 
 .md-typeset__scrollwrap {
     text-align: center;
+}
+
+.md-header__button.md-logo {
+    padding: 0;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2rem;
+}
+
+.md-title__logo {
+    max-height: 2rem; 
+    margin-top:0.4rem;
+
 }
