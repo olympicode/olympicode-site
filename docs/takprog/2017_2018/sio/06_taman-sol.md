@@ -1,0 +1,1 @@
+Možete pročitati editorijal na engleskom (CodeChef je koristio naš zadatak za Challenge rundu): [Link](https://discuss.codechef.com/t/safpar-editorial/24848)
