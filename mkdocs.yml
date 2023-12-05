@@ -4,8 +4,8 @@ theme:
 
   name: material 
   language: sh
-  logo: assets/logo-icon.png
-  favicon: assets/favicon.png
+  logo: assets/images/logo-icon.png
+  favicon: assets/images/favicon.png
   palette:
     primary: custom
     accent: custom
