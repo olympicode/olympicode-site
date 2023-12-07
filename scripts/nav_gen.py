@@ -103,7 +103,7 @@ def processTakprog(nav):
                 for key3 in seasons[key1][key2]:
                     nav.write("      - ["+key3[0]+"]("+key3[1]+")\n")
 
-print(os.curdir())
+print(os.getcwd())
 with open("../../docs/nav.md", "w") as nav:
     nav.write("---\n")
     nav.write("search:\n")
