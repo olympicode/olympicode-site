@@ -42,3 +42,9 @@ extra_javascript:
 
 extra_css: 
   - stylesheets/style.css
+
+plugins:
+  - search
+  - literate-nav:
+      nav_file: nav.md
+      tab_length: 2

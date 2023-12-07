@@ -1,0 +1,142 @@
+---
+search:
+  exclude: true
+---
+
+- Početna
+  - [Početna](index.md)
+- Takprog
+  - [Takprog Arhiva](takprog/index.md)
+  - 2013/2014
+    - Kvalifikacije 1
+      - [1 - Različiti brojevi](takprog/2013_2014/kv1/01_razliciti_brojevi.md)
+      - [2 - Crtanje brojeva](takprog/2013_2014/kv1/02_crtanje_brojeva.md)
+      - [3 - Skakač](takprog/2013_2014/kv1/03_skakac.md)
+      - [4 - Turista](takprog/2013_2014/kv1/04_turista.md)
+      - [5 - Bakterije](takprog/2013_2014/kv1/05_bakterije.md)
+    - Kvalifikacije 2
+      - [1 - Kripto](takprog/2013_2014/kv2/01_kripto.md)
+      - [2 - Tabla](takprog/2013_2014/kv2/02_tabla.md)
+      - [3 - Split](takprog/2013_2014/kv2/03_split.md)
+      - [4 - Carina](takprog/2013_2014/kv2/04_carina.md)
+      - [5 - MaxAND](takprog/2013_2014/kv2/05_maxand.md)
+      - [6 - Trouglovi](takprog/2013_2014/kv2/06_trouglovi.md)
+    - Okružno
+      - [B1 - Bojenje](takprog/2013_2014/okr/01_bojenje.md)
+      - [B2 - Komande1D](takprog/2013_2014/okr/02_komande1d.md)
+      - [B3 - Lepršava ptica](takprog/2013_2014/okr/03_leprsava_ptica.md)
+      - [A1 - Polaganje ispita](takprog/2013_2014/okr/04_polaganje_ispita.md)
+      - [A2 - Večiti](takprog/2013_2014/okr/05_veciti.md)
+      - [A3 - Komande2D](takprog/2013_2014/okr/06_komande2d.md)
+    - Državno
+      - [B1 - Ljute ptice](takprog/2013_2014/drz/01_ljute_ptice.md)
+      - [B2 - Sadnice](takprog/2013_2014/drz/02_sadnice.md)
+      - [B3 - Branje](takprog/2013_2014/drz/03_branje.md)
+      - [A1 - Pelikani](takprog/2013_2014/drz/04_pelikani.md)
+      - [A2 - Porodično stablo](takprog/2013_2014/drz/05_porodicno_stablo.md)
+      - [A3 - Električar](takprog/2013_2014/drz/06_elektricar.md)
+    - SIO
+      - [1 - Restorani](takprog/2013_2014/sio/01_restorani.md)
+      - [2 - Hoteli](takprog/2013_2014/sio/02_hoteli.md)
+      - [3 - Čaj](takprog/2013_2014/sio/03_caj.md)
+      - [4 - Antimaterijski top](takprog/2013_2014/sio/04_antimaterijski_top.md)
+      - [5 - Poplava](takprog/2013_2014/sio/05_poplava.md)
+      - [6 - Pirinač](takprog/2013_2014/sio/06_pirinac.md)
+  - 2015/2016
+    - Kvalifikacije
+      - [1 - Vatra](takprog/2015_2016/kv1/01_vatra.md)
+      - [2 - Uooaah](takprog/2015_2016/kv1/02_uooaah.md)
+      - [3 - Simboli](takprog/2015_2016/kv1/03_simboli.md)
+      - [4 - Zadaci](takprog/2015_2016/kv1/04_zadaci.md)
+      - [5 - Ograde](takprog/2015_2016/kv1/05_ograde.md)
+      - [6 - CMYK](takprog/2015_2016/kv1/06_cmyk.md)
+    - Okružno
+      - [B1 - Davis zona](takprog/2015_2016/okr/01_davis_zona.md)
+      - [B2 - (Novi) Vavilon](takprog/2015_2016/okr/02_novi_vavilon.md)
+      - [B3 - Abakus](takprog/2015_2016/okr/03_abakus.md)
+      - [A1 - Tajna prostorija](takprog/2015_2016/okr/04_tajna_prostorija.md)
+      - [A2 - Faraon](takprog/2015_2016/okr/05_faraon.md)
+      - [A3 - Zid](takprog/2015_2016/okr/06_zid.md)
+    - Državno
+      - [B1 - Maje](takprog/2015_2016/drz/01_maje.md)
+      - [B2 - Kralj Artur](takprog/2015_2016/drz/02_kralj_artur.md)
+      - [B3 - Tiho Brdo](takprog/2015_2016/drz/03_tiho_brdo.md)
+      - [A1 - Vatromet](takprog/2015_2016/drz/04_vatromet.md)
+      - [A2 - Magija](takprog/2015_2016/drz/05_magija.md)
+      - [A3 - Podzemne vode](takprog/2015_2016/drz/06_podzemne_vode.md)
+    - SIO
+      - [1 - Mađarski krug](takprog/2015_2016/sio/01_madjarski_krug.md)
+      - [2 - Igra](takprog/2015_2016/sio/02_igra.md)
+      - [3 - Migovi](takprog/2015_2016/sio/03_migovi.md)
+      - [4 - ZiPV](takprog/2015_2016/sio/04_zipv.md)
+      - [5 - Meteori](takprog/2015_2016/sio/05_meteori.md)
+      - [6 - Svemir](takprog/2015_2016/sio/06_svemir.md)
+  - 2016/2017
+    - Kvalifikacije
+      - [1 - Trotoar](takprog/2016_2017/kv1/01_trotoar.md)
+      - [2 - Papir, kamen, makaze](takprog/2016_2017/kv1/02_papir_kamen_makaze.md)
+      - [3 - Kul kule](takprog/2016_2017/kv1/03_kul_kule.md)
+      - [4 - Filozof](takprog/2016_2017/kv1/04_filozof.md)
+      - [5 - Sportski centar](takprog/2016_2017/kv1/05_sportski_centar.md)
+      - [6 - Kružna škola](takprog/2016_2017/kv1/06_kruzna_skola.md)
+    - Okružno
+      - [B1 - Krompir](takprog/2016_2017/okr/01_krompir.md)
+      - [B2 - Raketa](takprog/2016_2017/okr/02_raketa.md)
+      - [B3 - Marsovci](takprog/2016_2017/okr/03_marsovci.md)
+      - [A1 - Baza](takprog/2016_2017/okr/04_baza.md)
+      - [A2 - Kosmodrom](takprog/2016_2017/okr/05_kosmodrom.md)
+      - [A3 - Mingo](takprog/2016_2017/okr/06_mingo.md)
+    - Državno
+      - [B1 - Bond](takprog/2016_2017/drz/01_bond.md)
+      - [B2 - Hari](takprog/2016_2017/drz/02_hari.md)
+      - [B3 - Kladionica](takprog/2016_2017/drz/03_kladionica.md)
+      - [A1 - Karibi](takprog/2016_2017/drz/04_karibi.md)
+      - [A2 - Prorok](takprog/2016_2017/drz/05_prorok.md)
+      - [A3 - Karte](takprog/2016_2017/drz/06_karte.md)
+    - SIO
+      - [1 - Klikeri](takprog/2016_2017/sio/01_klikeri.md)
+      - [2 - Zaduženja](takprog/2016_2017/sio/02_zaduzenja.md)
+      - [3 - Tetke](takprog/2016_2017/sio/03_tetke.md)
+      - [4 - Neonke](takprog/2016_2017/sio/04_neonke.md)
+      - [5 - Virus](takprog/2016_2017/sio/05_virus.md)
+      - [6 - Pogled](takprog/2016_2017/sio/06_pogled.md)
+  - 2017/2018
+    - Kvalifikacije 1
+      - [1 - Prva cifra](takprog/2017_2018/kv1/01_prva_cifra.md)
+      - [2 - Transformacija matrice](takprog/2017_2018/kv1/02_transformacija_matrice.md)
+      - [3 - Prodavnice](takprog/2017_2018/kv1/03_prodavnice.md)
+      - [4 - Okrnjen trougao](takprog/2017_2018/kv1/04_okrnjen_trougao.md)
+      - [5 - Nagrade](takprog/2017_2018/kv1/05_nagrade.md)
+    - Kvalifikacije 2
+      - [1 - Mala matrica](takprog/2017_2018/kv2/01_mala_matrica.md)
+      - [2 - Trivijalan broj](takprog/2017_2018/kv2/02_trivijalan_broj.md)
+      - [3 - Topla voda](takprog/2017_2018/kv2/03_topla_voda.md)
+      - [4 - Džokeri](takprog/2017_2018/kv2/04_dzokeri.md)
+      - [5 - Kiosci](takprog/2017_2018/kv2/05_kiosci.md)
+    - Kvalifikacije 3
+      - [1 - Zečevi](takprog/2017_2018/kv3/01_zecevi.md)
+      - [2 - Najbliži neopadajući](takprog/2017_2018/kv3/02_najblizi_neopadajuci.md)
+      - [3 - Struja](takprog/2017_2018/kv3/03_struja.md)
+      - [4 - Plus-minus](takprog/2017_2018/kv3/04_plus_minus.md)
+      - [5 - Prepisivanje](takprog/2017_2018/kv3/05_prepisivanje.md)
+    - Okružno
+      - [B1 - Pangram](takprog/2017_2018/okr/01_pangram.md)
+      - [B2 - Matriks](takprog/2017_2018/okr/02_matriks.md)
+      - [B3 - Žalbe](takprog/2017_2018/okr/03_zalbe.md)
+      - [A1 - Cik-cak](takprog/2017_2018/okr/04_cik_cak.md)
+      - [A2 - Velika matrica](takprog/2017_2018/okr/05_velika_matrica.md)
+      - [A3 - Formula](takprog/2017_2018/okr/06_formula.md)
+    - Državno
+      - [B1 - Pola-pola](takprog/2017_2018/drz/01_pola_pola.md)
+      - [B2 - Trik](takprog/2017_2018/drz/02_trik.md)
+      - [B3 - Esikez](takprog/2017_2018/drz/03_esikez.md)
+      - [A1 - Super velika matrica](takprog/2017_2018/drz/04_super_velika.md)
+      - [A2 - Sort na stablu](takprog/2017_2018/drz/05_sort_na_stablu.md)
+      - [A3 - Obaranje](takprog/2017_2018/drz/06_obaranje.md)
+    - SIO
+      - [1 - Pacovi](takprog/2017_2018/sio/01_pacovi.md)
+      - [2 - Imanje](takprog/2017_2018/sio/02_imanje.md)
+      - [3 - Popis](takprog/2017_2018/sio/03_popis.md)
+      - [4 - Bombonice](takprog/2017_2018/sio/04_bombonice.md)
+      - [5 - Voćnjak](takprog/2017_2018/sio/05_vocnjak.md)
+      - [6 - Taman](takprog/2017_2018/sio/06_taman.md)

@@ -22,5 +22,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: pip install mkdocs-literate-nav
+      - run: python3 scripts/nav_gen.py
       - run: mkdocs gh-deploy --force
 
