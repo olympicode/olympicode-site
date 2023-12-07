@@ -1,7 +1,7 @@
 import os
 import functools
 
-include_list = ['2013/2014', '2015/2016', '2016/2017', '2017/2018', '2019/2020']
+include_list = ['2013/2014', '2015/2016', '2016/2017', '2017/2018', '2019/2020', '2020/2021']
 
 def processFileName(path):
     with open(path, "r") as fl:
