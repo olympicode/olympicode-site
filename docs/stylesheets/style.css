@@ -4,6 +4,10 @@
     --md-primary-fg-color--dark:  #1E003E;
 }
 
+.md-content {
+    --md-typeset-a-color: #0DB4E0;
+}
+
 h1 {
     margin-bottom: 30px;
     text-align: center;
@@ -49,4 +53,8 @@ td {
 img {
     display: block;
     margin: auto;
+}
+
+a {
+    color: 
 }

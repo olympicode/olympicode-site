@@ -34,6 +34,19 @@ extra:
   analytics:
     provider: google
     property: G-RQJ7SCHCH5
+    feedback:
+      title: Da li je stranica bila korisna?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Stranica je bila korisna
+          data: 1
+          note: >-
+            Hvala vam na povratnoj informaciji!
+        - icon: material/emoticon-sad-outline
+          name: Stranica se može popraviti
+          data: 0
+          note: >- 
+            Hvala vam na povratnoj informaciji! Pomozite nam da popravimo ovu stranicu popunjavanjem sledećeg <a href="..." target="_blank" rel="noopener">formulara</a>.
 
 extra_javascript:
   - javascripts/mathjax.js

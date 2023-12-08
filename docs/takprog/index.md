@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - feedback
 ---
 # Takprog Arhiva
 ## Nezvanična arhiva srpskih srednjoškolskih takmičenja iz informatike
