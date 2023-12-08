@@ -9,14 +9,14 @@ def processFileName(path):
         fl_content = list(filter(lambda x: x.strip().startswith('#'), fl_content))
         if len(fl_content) == 0:
             return ""
-        return fl_content[0].strip()
+        return fl_content[0].strip()[2:]
 
 def processTakprogContest(path): 
     taskList = []
     with os.scandir(path) as tasks:
         for task in tasks:
             if task.is_file() and task.name.endswith('.md'):
-                taskList.append((processFileName(task.path), task.path[8:]))
+                taskList.append((processFileName(task.path), task.path[5:]))
     return taskList
 
 def processTakprogSeason(path): 
