@@ -9,7 +9,7 @@ def processFileName(path):
         fl_content = list(filter(lambda x: x.strip().startswith('#'), fl_content))
         if len(fl_content) == 0:
             return ""
-        return fl_content[0].strip()[2:]
+        return fl_content[0].strip()
 
 def processTakprogContest(path): 
     taskList = []
@@ -111,8 +111,7 @@ with open("docs/nav.md", "w") as nav:
     nav.write("---\n")
     nav.write("\n")
 
-    nav.write("- Početna\n")
-    nav.write("  - [Početna](index.md)\n")
+    nav.write("- [Početna](index.md)\n")
     nav.write("- Takprog\n")
     nav.write("  - [Takprog Arhiva](takprog/index.md)\n")
 
