@@ -42,6 +42,8 @@ hide:
 	### Objašnjenje
 	
 	Tri tačke koje su zadate mogu se obuhvatiti kvadratom čije će donje levo teme biti u koordinati $(1, 1)$, a gornje desno teme u koordinati $(3, 3)$ te je njegova površina $2^2=4$.
+
+	![Primer 1](01_nadkvadrat-sl1.png)
 	
 	## Primer 2
 	
@@ -62,6 +64,8 @@ hide:
 	### Objašnjenje
 	
 	Tri tačke koje su zadate mogu se obuhvatiti kvadratom čije će donje levo teme biti u koordinati $(-2, -3)$, a gornje desno teme u koordinati $(3, 2)$ te je njegova površina $5^2=25$.
+
+	![Primer 2](01_nadkvadrat-sl2.png)
 	
 	## Primer 3
 	
@@ -82,6 +86,8 @@ hide:
 	### Objašnjenje
 	
 	Tri tačke koje su zadate mogu se obuhvatiti kvadratom čije će donje levo teme biti baš u koordinati $(1, 2)$, što je zapravo prvozadata tačka, a gornje desno teme u koordinati $(5, 6)$, što je trećezadata tačka, te je njegova površina $4^2=16$.
+
+	![Primer 3](01_nadkvadrat-sl3.png)
 	
 	## Ograničenja
 	
