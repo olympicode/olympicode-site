@@ -881,3 +881,6 @@ hide:
 			//for(int i=1;i<=n;i++) cout<<s[i]<<endl;
 		}
 		```
+  
+  	## Dodatno čitanje
+   	Za interesantno i poučno netakmičarsko rešenje ovog zadatka, pogledajte [materijale](https://github.com/evarga/openmp-primer) profesora Ervina Varge sa Fakulteta Tehničkih Nauka, koji je našao najbolje rešenja koristeći programski interfejs OpenMP za paralelno programiranje. 
