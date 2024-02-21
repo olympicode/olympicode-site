@@ -883,4 +883,4 @@ hide:
 		```
   
   	## Dodatno čitanje
-   	Za interesantno i poučno netakmičarsko rešenje ovog zadatka, pogledajte [materijale](https://github.com/evarga/openmp-primer) profesora Ervina Varge sa Fakulteta Tehničkih Nauka, koji je našao najbolje rešenja koristeći programski interfejs OpenMP za paralelno programiranje. 
+   	Za interesantno i poučno netakmičarsko rešenje ovog zadatka, pogledajte [materijale](https://github.com/evarga/openmp-primer) profesora Ervina Varge sa Fakulteta Tehničkih Nauka u Novom Sadu, koji je našao najbolje rešenja koristeći programski interfejs OpenMP za paralelno programiranje. 
