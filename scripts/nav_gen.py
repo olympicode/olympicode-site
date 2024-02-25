@@ -16,7 +16,7 @@ def processTakprogContest(path):
     with os.scandir(path) as tasks:
         for task in tasks:
             if task.is_file() and task.name.endswith('.md'):
-                taskList.append((processFileName(task.path), task.path[5:]))
+                taskList.append((processFileName(task.path), task.path[8:]))
     return taskList
 
 def processTakprogSeason(path): 
@@ -39,7 +39,7 @@ def task_compare(x, y):
     return +1
 
 def processTakprog(nav): 
-    prefix = "docs/takprog"
+    prefix = "../docs/takprog"
     seasons = {}
     with os.scandir(prefix) as years:
         for season in years:
@@ -104,7 +104,7 @@ def processTakprog(nav):
                     nav.write("      - ["+key3[0]+"]("+key3[1]+")\n")
 
 print(os.getcwd())
-with open("docs/nav.md", "w") as nav:
+with open("../docs/nav.md", "w") as nav:
     nav.write("---\n")
     nav.write("search:\n")
     nav.write("  exclude: true\n")

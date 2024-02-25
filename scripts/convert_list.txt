@@ -1,0 +1,6 @@
+2023/2024| okr|01_usamljenost|B1 - Usamljenost|Vladimir Milovanović|Aleksandar Višnjić|Aleksandar Višnjić|Aleksandar Višnjić|300ms|64MB
+2023/2024| okr|02_dejn|B2 - Dejn|Andrej Ivašković|Marko Milenković|Vladimir Milovanović|Andrej Ivašković|1000ms|64MB
+2023/2024| okr|03_bitvajz_oranje|B3 - Bitvajz oranje|Pavle Martinović|Aleksandar Višnjić|Pavle Martinović|Pavle Martinović|2000ms|256MB
+2023/2024| okr|04_xormutacije|A1 - Xormutacije|Marko Milenković|Marko Milenković|Marko Milenković|Pavle Martinović|1000ms|256MB
+2023/2024| okr|05_monopol|A2 - Monopol|Bogdan Petrović|Aleksa Milojević|Aleksa Milisavljević|Aleksa Milisavljević|700ms|64MB
+2023/2024| okr|06_linijopolis|A3 - Linijopolis|Aleksandar Višnjić|Andrej Ivašković|Aleksandar Višnjić|Marko Šišović|4000ms|128MB
