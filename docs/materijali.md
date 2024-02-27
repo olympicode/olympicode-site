@@ -17,7 +17,7 @@ Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odo
 
 ## Olimpijske pripreme
 
-- [NEERC problemi (IOI 2019)](materials/dp_nikolamilosavljevic.md) | Nikola Milosavljević
+- [NEERC problemi (IOI 2019)](materials/neerc_nikolamilosavljevic.md) | Nikola Milosavljević
 - [Dinamičko programiranje (BOI 2018)](materials/dp_nikolamilosavljevic.md) | Nikola Milosavljević
 - [Grafovi i još ponešto (IOI 2017)](materials/grafovi_nikolamilosavljevic.md) | Nikola Milosavljević
 - [Starije pripreme](https://dms.rs/pripreme-informatika/) 
@@ -25,11 +25,11 @@ Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odo
 ## Maturski radovi
  
 - [Algoritmi za rešavanje problema iz teorije grafova](materials/grafovi_magdalinajelic.md) | Magdalina Jelić*
-- [Segmentno i fenvikovo stablo u takmičarskom programiranju](materials/segmentno_davicmilicevic.md) | David Milićević
+- [Segmentno i fenvikovo stablo u takmičarskom programiranju](materials/segmentno_davidmilicevic.md) | David Milićević
 - [Segmentno stablo](materials/segmentno_markoilic.md) | Marko Ilić
 - [Segmentno i Fenvikovo stablo](materials/segmentno_mihajlomarkovic.md) | Mihajlo Marković
 - [Probabilistički algoritmi u takmičarskom programiranju](materials/probability_bogdanpetrovic.md) | Bogdan Petrović
-- [Randomizirani algortmi i strukture podataka](materials/randomizacija_markogrujcic.md) | Marko Grujčić
+- [Randomizirani algoritmi i strukture podataka](materials/randomizacija_markogrujcic.md) | Marko Grujčić
 - [Komparativna analiza prioritetnih redova](materials/priorityqueue_kostagrujcic.md) | Kosta Grujčić
 
 ## Ostali materijali
@@ -37,3 +37,5 @@ Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odo
 - [Arhiva zadataka i rešenja srednjoškolskih takmičenja od 2014. godine](takprog/index.md)*
 - [Arhiva zadataka srednjoškolskih takmičenja do 2013. godine](https://staritakprog.dms.rs)*
 - [Agoge i-training](https://www.dms.rs/agogeit/index.php) - stari materijali sa dodatnih nastava i SIO priprema u Nišu | Andreja Ilić i Nikola Milosavljević*
+
+Ukoliko imate još materijala koji bi mogli biti korisni takmičarima, kontaktirajte nas na [mladen@olympicode.rs](mladen@olympicode.rs).

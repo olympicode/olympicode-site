@@ -6,6 +6,7 @@ search:
 - [Početna](index.md)
 - Takprog
   - [Takprog Arhiva](takprog/index.md)
+- [Materijali](materijali.md)
   - 2013/2014
     - Kvalifikacije 1
       - [1 - Različiti brojevi](takprog/2013_2014/kv1/01_razliciti_brojevi.md)
@@ -385,21 +386,9 @@ search:
       - [4 - Obaranje ruku](takprog/2023_2024/kv2/04_obaranje_ruku.md)
       - [5 - Pećinski zečevi](takprog/2023_2024/kv2/05_pecinski_zecevi.md)
     - Okružno
-      - [  $T = 1$ и $N \leq 9$](takprog/2023_2024/okr/04_xormutacije-sol.md)
-      - [ Главно решење](takprog/2023_2024/okr/02_dejn-sol.md)
-      - [ Када Ања има победничку стратеију?](takprog/2023_2024/okr/03_bitvajz_oranje-sol.md)
-      - [ Опис улаза](takprog/2023_2024/okr/06_linijopolis-st.md)
-      - [ Опис улаза](takprog/2023_2024/okr/01_usamljenost-st.md)
-      - [ Опис улаза](takprog/2023_2024/okr/03_bitvajz_oranje-st.md)
-      - [ Опис улаза](takprog/2023_2024/okr/05_monopol-st.md)
-      - [ Опис улаза](takprog/2023_2024/okr/04_xormutacije-st.md)
-      - [ Опис улаза](takprog/2023_2024/okr/02_dejn-st.md)
-      - [ Решење када $N\leq 100$](takprog/2023_2024/okr/01_usamljenost-sol.md)
       - [B1 - Usamljenost](takprog/2023_2024/okr/01_usamljenost.md)
       - [B2 - Dejn](takprog/2023_2024/okr/02_dejn.md)
       - [B3 - Bitvajz oranje](takprog/2023_2024/okr/03_bitvajz_oranje.md)
       - [A1 - Xormutacije](takprog/2023_2024/okr/04_xormutacije.md)
       - [A2 - Monopol](takprog/2023_2024/okr/05_monopol.md)
       - [A3 - Linijopolis](takprog/2023_2024/okr/06_linijopolis.md)
-      - [Линијополис](takprog/2023_2024/okr/06_linijopolis-sol.md)
-      - [Монопол](takprog/2023_2024/okr/05_monopol-sol.md)

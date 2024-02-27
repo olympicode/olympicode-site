@@ -3,7 +3,7 @@ hide:
   - navigation
   - toc
 ---
-# Randomizirani algortmi i strukture podataka
+# Randomizirani algoritmi i strukture podataka
 
 | Autor |
 |:-:|

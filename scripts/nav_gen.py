@@ -2,6 +2,8 @@ import os
 import functools
 
 include_list = ['2013/2014', '2014/2015', '2015/2016', '2016/2017', '2017/2018', '2018/2019', '2019/2020', '2020/2021', '2021/2022', '2022/2023', '2023/2024']
+local_prefix = "" # "../"
+prefix_length = 5 # 8
 
 def processFileName(path):
     with open(path, "r") as fl:
@@ -16,7 +18,7 @@ def processTakprogContest(path):
     with os.scandir(path) as tasks:
         for task in tasks:
             if task.is_file() and task.name.endswith('.md'):
-                taskList.append((processFileName(task.path), task.path[5:]))
+                taskList.append((processFileName(task.path), task.path[prefix_length:]))
     return taskList
 
 def processTakprogSeason(path): 
@@ -39,7 +41,7 @@ def task_compare(x, y):
     return +1
 
 def processTakprog(nav): 
-    prefix = "docs/takprog"
+    prefix = local_prefix + "docs/takprog"
     seasons = {}
     with os.scandir(prefix) as years:
         for season in years:
@@ -104,7 +106,7 @@ def processTakprog(nav):
                     nav.write("      - ["+key3[0]+"]("+key3[1]+")\n")
 
 print(os.getcwd())
-with open("docs/nav.md", "w") as nav:
+with open(local_prefix + "docs/nav.md", "w") as nav:
     nav.write("---\n")
     nav.write("search:\n")
     nav.write("  exclude: true\n")
@@ -114,5 +116,6 @@ with open("docs/nav.md", "w") as nav:
     nav.write("- [Početna](index.md)\n")
     nav.write("- Takprog\n")
     nav.write("  - [Takprog Arhiva](takprog/index.md)\n")
+    nav.write("- [Materijali](materijali.md)\n")
 
     processTakprog(nav)
