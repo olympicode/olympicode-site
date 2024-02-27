@@ -116,6 +116,6 @@ with open(local_prefix + "docs/nav.md", "w") as nav:
     nav.write("- [Početna](index.md)\n")
     nav.write("- Takprog\n")
     nav.write("  - [Takprog Arhiva](takprog/index.md)\n")
+    processTakprog(nav)
     nav.write("- [Materijali](materijali.md)\n")
 
-    processTakprog(nav)
