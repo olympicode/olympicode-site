@@ -3,7 +3,7 @@ hide:
   - navigation
   - toc
 ---
-# NEERC problemi - IOI 2019
+# NEERC problemi - IOI 2019 pripreme
 
 | Autor |
 |:-:|

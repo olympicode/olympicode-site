@@ -3,7 +3,7 @@ hide:
   - navigation
   - toc
 ---
-# Dinamičko programiranje - BOI 2018
+# Dinamičko programiranje - BOI 2018 pripreme
 
 | Autor |
 |:-:|
