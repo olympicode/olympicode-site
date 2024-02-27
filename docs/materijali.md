@@ -9,8 +9,6 @@ hide:
 
 Tokom godina nastalo je dosta materijala iz takmičarskog programiranja na srpskom jeziku. Uglavnom su u pitanju materijali sa olimpijskih priprema ili maturski radovi takmičara koji su odlučili da pišu o temi iz takmičarskog programiranja. Samim tim, dosta ovih materijala sadrži napredno gradivo - zvezdicom su označeni materijali koji sadrže gradivo koje bi pomoglo i naprednijim početnicima. 
 
-Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odobrili objavljivanje.
-
 - [Dinamičko programiranje](materials/dp_skripta.md) | Andreja Ilić i Aleksandar Ilić*
 - [Uparivanje u bipartitnim grafovima](materials/matching_pavlemartinovic.md) | Pavle Martinović
 - [Fenvikovo stablo](materials/fenvik_petarvelickovic.md) | Petar Veličković
@@ -38,4 +36,4 @@ Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odo
 - [Arhiva zadataka srednjoškolskih takmičenja do 2013. godine](https://staritakprog.dms.rs)*
 - [Agoge i-training](https://www.dms.rs/agogeit/index.php) - stari materijali sa dodatnih nastava i SIO priprema u Nišu | Andreja Ilić i Nikola Milosavljević*
 
-Ukoliko imate još materijala koji bi mogli biti korisni takmičarima, kontaktirajte nas na [mladen@olympicode.rs](mladen@olympicode.rs).
+Ukoliko imate još materijala koji bi mogli biti korisni takmičarima, kontaktirajte nas na [mladen@olympicode.rs](mladen@olympicode.rs). Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odobrili objavljivanje.
