@@ -188,13 +188,13 @@ hide:
 	                preostalo = 0;
 	                najmanji.bitovi += uvecanje;
 	                najmanji.broj -= broj_dodatnih;
-	                busevi.push(najmanji);
 	                if (broj_dodatnih > 0) {
 	                    autobus novi;
 	                    novi.broj = broj_dodatnih;
 	                    novi.bitovi = najmanji.bitovi + 1;
 	                    busevi.push(novi);
 	                }
+	                busevi.push(najmanji);
 	            }
 	        }
 	        long long najmanje = busevi.top().bitovi;
