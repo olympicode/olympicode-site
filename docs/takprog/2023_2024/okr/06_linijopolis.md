@@ -136,7 +136,7 @@ hide:
 	struct autobus {
 	    int broj;
 	    long long bitovi;
-	} buff[MAXM];
+	};
 	
 	void ulaz() {
 	    scanf("%d %d", &M, &N);
