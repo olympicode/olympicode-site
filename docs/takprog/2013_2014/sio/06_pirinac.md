@@ -49,7 +49,7 @@ hide:
 	* Funkcija `Init(N,  subtask)` se poziva tačno jednom (na početku) i važi $1\leq N\leq 100.000$ i $1\leq subtask\leq 5$.
 	* Funkcije `Ubaci`, `Izmesaj` i `Prebroji` se ukupno pozivaju ne više od $300.000$ puta.
 	* Prilikom svakog poziva `Ubaci(pos, k,  v)` važi $k\geq 0$, $1\leq pos\leq pos+2^k-1\leq N$, i $0\leq v\leq 30$.
-	* Prilikom svakog poziva `Izmesaj(pos,  k)` važi $k\leq1$, $1\leq pos\leq pos+2^k-1\leq N$.
+	* Prilikom svakog poziva `Izmesaj(pos,  k)` važi $k\geq 1$, $1\leq pos\leq pos+2^k-1\leq N$.
 	* Prilikom svakog poziva `Prebroji(pos,  k)` važi $k\geq 0$, $1\leq pos\leq pos+2^k-1\leq N$.
 	
 	Označimo sa $numUbaci$ broj poziva funkcije `Ubaci`, sa $numIzmesaj$ broj poziva funkcije `Izmesaj`, sa $numPrebroji$ broj poziva funkcije `Prebroji`, i sa $Q = numUbaci+numIzmesaj+numPrebroji$:
@@ -67,14 +67,14 @@ hide:
 	```
 	C/C++:
 	void Init(int N, int subtask);
-	void Ubaci(int pos, int k, int v);
-	void Izmesaj(int pos, int k);
-	long long Prebroji(int pos, int k);
+		void Ubaci(int pos, int k, int v);
+		void Izmesaj(int pos, int k);
+		long long Prebroji(int pos, int k);
 	Pascal:
-	procedure Init(N, subtask : longint);
-	procedure Ubaci (pos, k, v : longint);
-	procedure Izmesaj (pos, k : longint);
-	function Prebroji(pos, k : longint) : int64;
+		procedure Init(N, subtask : longint);
+		procedure Ubaci (pos, k, v : longint);
+		procedure Izmesaj (pos, k : longint);
+		function Prebroji(pos, k : longint) : int64;
 	```
 	
 	## Testiranje i eksperimentisanje
