@@ -13,9 +13,9 @@ hide:
 	
 	
 	Stari Vavilonci su koristili jednu varijantu naprave Abakus za komplikovana matematička izračunavanja. Abakus se sastoji od $n$ kuglica numerisanih brojevima od 1 do $n$. Svaka od kuglica se može nalaziti na jednoj od 10 pozicija (numerisanih brojevima od 0 do 9), a te pozicije govore o vrednosti koju ima odgovarajuća kuglica (to su vrednosti od 0 do 9). Kuglice su podeljene u $m$ disjunktnih grupa, numerisanih brojevima od 1 do $m$ (pojedine grupe mogu biti prazne). Korisnik ima na raspolaganju dve vrste operacija:
-	* Postavi $BrG$ $Poz$, ovom komandom postavljaju se sve kuglice iz grupe $BrG$ u poziciju $Poz$
-	(tj. postavlja vrednost svih kuglica iz te grupe na Poz). Ova operacija ima cenu $C1$.
 	
+ 	* Postavi $BrG$ $Poz$, ovom komandom postavljaju se sve kuglice iz grupe $BrG$ u poziciju $Poz$
+	(tj. postavlja vrednost svih kuglica iz te grupe na Poz). Ova operacija ima cenu $C1$.
 	* Promeni $BrK$ $Poz$, ovom komandom se premešta samo kuglicu sa rednim brojem $BrK$ na poziciju $Poz$ (tj. menja se njena vrednost na $Poz$). Za ovu operaciju korisnik plaća cenu jednaku "kružnom rastojanju" između dosadašnje pozicije te kuglice i nove pozicije. "Kružno rastojanje" je najkraće rastojanje između pozicija, ako bi one bile poređane na krugu u skladu sa numeracijom. Npr. kružno rastojanje između 0 i 7 je 3, između 1 i 9 je 2, a imeđu 7 i 3 je 4.
 	
 	Dobili ste opis Abakusa (broj kuglica, cenu operacije Postavi (C1) i podelu kuglica po grupama), početno stanje kuglica (tj. poziciju u kojoj se nalazi svaka od kuglica na početku) i krajnje stanje kuglica (tj. pozicije na kojima treba na kraju da se nalaze). Potrebno je da odredite minimalnu cenu da se od zadatog početnog stanja kuglica (tj. početnih pozicija kuglica) dođe do krajnjeg stanja kuglica.
