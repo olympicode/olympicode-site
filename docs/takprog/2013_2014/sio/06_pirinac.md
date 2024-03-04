@@ -66,7 +66,7 @@ hide:
 	Zavisno od programskog jezika koji koristite, vaša funkcija/procedura mora biti sledećeg oblika:
 	```
 	C/C++:
-	void Init(int N, int subtask);
+		void Init(int N, int subtask);
 		void Ubaci(int pos, int k, int v);
 		void Izmesaj(int pos, int k);
 		long long Prebroji(int pos, int k);
