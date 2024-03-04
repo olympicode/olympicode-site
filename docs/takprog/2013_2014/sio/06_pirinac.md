@@ -101,7 +101,7 @@ hide:
 	## Treći podzadatak
 	Kako ne pozivamo funkciju **Izmesaj**, zadatak se svodi na upite raspona povećanja i sume. Segmentno stablo sa lenjom propagacijom rešava ovaj podzadatak u $O(N+QlogN)$.
 	
-	## чetvrti podzadatak
+	## Četvrti podzadatak
 	Niz se može podeliti u listu blokova veličine $\sqrt N$; svaki blok čuva listu celih brojeva koji označavaju same elemente niza i još jedan ceo broj koji označava za koliko još dodatno treba uvećati svaki element te liste. **Ubaci** i **Prebroji** nije teško implementirati u $O(\sqrt N)$.
 	Što se tiče funkcije **Izmesaj**, ona će prvo po potrebi podeliti blokove u kojima se nalaze krajevi njenog raspona na dva bloka (kako radimo sa listama to je efikasno, takođe uvek nastaje najviše 4 nova bloka). Zatim treba da "izmešamo" određene cele blokove, ali to je opet samo izbacivanje iz i dodavanje u listu (koja sadrži liste).
 	Napomenimo samo da se nakon $\sqrt N$ poziva funkcije **Izmesaj** blokovi moraju napraviti iznova u $O(N)$ kako bi njihov broj ostao korenskog reda. Ukupna složenost je $O(N+Q\sqrt N)$.
@@ -116,178 +116,118 @@ hide:
 	
 	
 	``` cpp title="06_pirinac.cpp" linenums="1"
-	#include <stdio.h>
-	#include <string>
-	#include <cstring>
-	#include <algorithm>
-	#include <memory.h>
-	#include <vector>
-	#include <math.h>
-	#include <set>
-	#include <map>
-	#include <iostream>
-	#include <sstream>
-	#include <ctime>
-	#include <assert.h>
+	#include<bits/stdc++.h>
+	#define STIZE(x) fprintf(stderr, "STIZE%d\n", x);
+	#define PRINT(x) fprintf(stderr, "%s = %d\n", #x, x);
+	#define NL(x) printf("%c", " \n"[(x)]);
+	#define lld long long
+	#define pii pair<int,int>
+	#define pb push_back
+	#define fi first
+	#define se second
+	#define mid (l+r)/2
+	#define endl '\n'
+	#define all(a) begin(a),end(a)
+	#define sz(a) int((a).size())
+	#define LINF 1000000000000000LL
+	#define INF 1000000000
+	#define EPS 1e-9
 	using namespace std;
-	
-	#define PI 3.141592653589793
-	#define INF 2123456789
-	#define NUL 0.0000001
-	
-	#define for_each(i, c) for (__typeof((c).begin()) i = (c).begin(); i != (c).end(); i++)
-	
-	#define SZ size()
-	#define CS c_str()
-	#define PB push_back
-	#define MP make_pair
-	#define INS insert
-	#define EMP empty()
-	#define CLR clear()
-	#define LEN length()
-	#define MS(x) memset(x, 0, sizeof(x))
-	#define MS1(x) memset(x, -1, sizeof(x))
-	
-	typedef long long LL;
-	typedef unsigned long long ULL;
-	
-	const int MaxN = 530005;
-	
-	int n;
-	
-	struct segmentTree{
-	    LL data[MaxN], lazy[MaxN];
-	    int left[MaxN], right[MaxN];
-	
-	    void init(int node = 1, int l = 1, int r = n){
-	        if (l > r) return;
-	        if (l == r){
-	            data[node] = lazy[node] = 0;
-	            left[node] = 2 * node;
-	            right[node] = 2 * node + 1;
-	            return;
+	#define MAXN (1<<18)
+	struct SegNode{
+	    lld val, lazy;
+	    int l, r, parent;
+	};
+	SegNode seg[4*MAXN+10];
+	void propagate(int node, int l, int r) {
+	    if(seg[node].lazy != 0) {
+	        seg[node].val += (lld)(r-l+1) * seg[node].lazy;
+	        if(l < r) {
+	            seg[seg[node].l].lazy += seg[node].lazy;
+	            seg[seg[node].r].lazy += seg[node].lazy;
 	        }
-	
-	        init(2 * node, l, (l + r) / 2);
-	        init(2 * node + 1, (l + r) / 2 + 1, r);
-	
-	        data[node] = lazy[node] = 0;
-	        left[node] = 2 * node;
-	        right[node] = 2 * node + 1;
-	    }
-	
-	    void update(int i, int j, LL val, int node = 1, int l = 1, int r = n){
-	        lazy_update(node, l, r);
-	
-	        if (r < i || j < l) return;
-	        if (i <= l && r <= j){
-	            lazy[node] += val;
-	            lazy_update(node, l, r);
-	            return;
-	        }
-	
-	        update(i, j, val, left[node], l, (l + r) / 2);
-	        update(i, j, val, right[node], (l + r) / 2 + 1, r);
-	
-	        node_update(node);
-	    }
-	
-	    void node_update(int node){
-	        data[node] = data[ left[node] ] + data[ right[node] ];
-	    }
-	
-	    void lazy_update(int node, int l, int r){
-	
-	        if (lazy[node] != 0){
-	            data[node] += lazy[node] * (r - l + 1);
-	
-	            lazy[ left[node] ] += lazy[node];
-	            lazy[ right[node] ] += lazy[node];
-	
-	            lazy[node] = 0;
-	        }
-	    }
-	
-	    LL get(int i, int j, int node = 1, int l = 1, int r = n){
-	        lazy_update(node, l, r);
-	
-	        if (r < i || j < l) return 0;
-	        if (i <= l && r <= j) return data[node];
-	
-	        LL A = get(i, j, left[node], l, (l + r) / 2);
-	        LL B = get(i, j, right[node], (l + r) / 2 + 1, r);
-	
-	        return A + B;
-	    }
-	
-	    void swap_nodes(vector <int> &nodes, vector <int> &ancs, int i, int j, int node = 1, int anc = 0, int l = 1, int r = n){
-	        lazy_update(node, l, r);
-	
-	        if (r < i || j < l) return;
-	        if (i <= l && r <= j){
-	            nodes.push_back(node);
-	            ancs.push_back(anc);
-	            return;
-	        }
-	
-	        swap_nodes(nodes, ancs, i, j, left[node], node, l, (l + r) / 2);
-	        swap_nodes(nodes, ancs, i, j, right[node], node, (l + r) / 2 + 1, r);
-	    }
-	
-	} sTree;
-	
-	void Init(int _n, int subtask){
-	    n = _n;
-	    sTree.init();
-	}
-	
-	void Ubaci(int pos, int k, int v){
-	    sTree.update(pos, pos + (1 << k) - 1, 1 << v);
-	}
-	
-	void Izmesaj(int pos, int k){
-	    //printf("\n\n");
-	    //sTree.swap_nodes(pos, pos + (1 << (k - 1)) - 1);
-	    //printf("%d %d %d %d\n", pos, pos + (1 << (k - 1)) - 1, pos + (1 << (k - 1)), pos + (1 << k) - 1);
-	    //return;
-	    //printf("pos = %d k = %d\n", pos, k);
-	
-	    vector <int> nodes_left, nodes_right, ancs_left, ancs_right;
-	    nodes_left.clear(); nodes_right.clear();
-	    ancs_left.clear(); ancs_right.clear();
-	
-	    sTree.swap_nodes(nodes_left, ancs_left, pos, pos + (1 << (k - 1)) - 1);
-	    sTree.swap_nodes(nodes_right, ancs_right, pos + (1 << (k - 1)), pos + (1 << k) - 1);
-	
-	    for (int i = 0, sz = nodes_left.size(); i < sz; i++){
-	        int node = nodes_left[i], node2 = nodes_right[i];
-	        int anc = ancs_left[i], anc2 = ancs_right[i];
-	
-	        //printf("node = %d node2 = %d anc = %d anc2 = %d\n", node, node2, anc, anc2);
-	        //printf("pre: anc [%d, %d]   anc2 [%d, %d]\n", sTree.left[anc], sTree.right[anc], sTree.left[anc2], sTree.right[anc2]);
-	
-	        swap(sTree.left[anc] == node ? sTree.left[anc] : sTree.right[anc], sTree.left[anc2] == node2 ? sTree.left[anc2] : sTree.right[anc2]);
-	
-	        //printf("pos: anc [%d, %d]   anc2 [%d, %d]\n", sTree.left[anc], sTree.right[anc], sTree.left[anc2], sTree.right[anc2]);
-	    }
-	
-	    for (int i = 0, sz = nodes_left.size(); i < sz; i++){
-	        int node = ancs_left[i], node2 = ancs_right[i];
-	
-	        while (node > 0){
-	            sTree.node_update(node);
-	            node /= 2;
-	        }
-	
-	        while (node2 > 0){
-	            sTree.node_update(node2);
-	            node2 /= 2;
-	        }
+	        seg[node].lazy = 0;
 	    }
 	}
-	
-	LL Prebroji(int pos, int k){
-	    return sTree.get(pos, pos + (1 << k) - 1);
+	///INIT//////////////////////////////////////////////////////////////////////
+	int timer;
+	void init(int node, int l, int r, int parent) {
+	    seg[node].val = seg[node].lazy = 0;
+	    seg[node].parent = parent;
+	    if(l == r) return;
+	    seg[node].l = ++timer;
+	    seg[node].r = ++timer;
+	    init(seg[node].l, l, mid, node);
+	    init(seg[node].r, mid+1, r, node);
 	}
-
+	void Init(int N, int subtask) {
+	    timer = 1;
+	    init(1, 1, MAXN, 0);
+	}
+	///UPD///////////////////////////////////////////////////////////////////////
+	void update(int node, int l, int r, int L, int R, lld val) {
+	    propagate(node, l, r);
+	    if(r < l || r < L || l > R) return;
+	    if(L <= l && r <= R) {
+	        seg[node].lazy += val;
+	        propagate(node, l, r);
+	        return;
+	    }
+	    update(seg[node].l, l, mid, L, R, val);
+	    update(seg[node].r, mid+1, r, L, R, val);
+	    seg[node].val = seg[seg[node].l].val + seg[seg[node].r].val;
+	}
+	void Ubaci(int pos, int k, int v) {
+	    update(1, 1, MAXN, pos, pos+(1<<k)-1, (1<<v));
+	}
+	///QUERY//////////////////////////////////////////////////////////////////////
+	lld query(int node, int l, int r, int L, int R) {
+	    propagate(node, l, r);
+	    if(r < l || r < L || l > R) return 0;
+	    if(L <= l && r <= R) {
+	        return seg[node].val;
+	    }
+	    return query(seg[node].l, l, mid, L, R) + query(seg[node].r, mid+1, r, L, R);
+	}
+	lld Prebroji(int pos, int k) {
+	    return query(1, 1, MAXN, pos, pos+(1<<k)-1);
+	}
+	///SHUFFLE////////////////////////////////////////////////////////////////////
+	vector<int> a, b;
+	void shuffle(int node, int l, int r, int L, int R, vector<int> &v) {
+	    propagate(node, l, r);
+	    if(r < l || r < L || l > R) return;
+	    if(L <= l && r <= R) {
+	        v.pb(node);
+	        return;
+	    }
+	    shuffle(seg[node].l, l, mid, L, R, v);
+	    shuffle(seg[node].r, mid+1, r, L, R, v);
+	}
+	void zameni(int a, int b) {
+	    int pa = seg[a].parent, pb = seg[b].parent;
+	    seg[a].parent = pb;
+	    seg[b].parent = pa;
+	    if(pa == pb) {
+	        swap(seg[pa].l, seg[pa].r);
+	        return;
+	    }
+	    if(seg[pa].l == a) seg[pa].l = b;
+	    if(seg[pa].r == a) seg[pa].r = b;
+	
+	    if(seg[pb].l == b) seg[pb].l = a;
+	    if(seg[pb].r == b) seg[pb].r = a;
+	}
+	void Izmesaj(int pos, int k) {
+	    k--;
+	    a.clear(); b.clear();
+	    shuffle(1, 1, MAXN, pos, pos+(1<<k)-1, a);
+	    int pos1 = pos + (1<<k);
+	    shuffle(1, 1, MAXN, pos1, pos1+(1<<k)-1, b);
+	    for(int i = 0; i < sz(a); i++) {
+	        zameni(a[i], b[i]);
+	    }
+	    update(1, 1, MAXN, pos, pos+(1<<k)-1, 0);
+	    update(1, 1, MAXN, pos1, pos1+(1<<k)-1, 0);
+	}
 	```
