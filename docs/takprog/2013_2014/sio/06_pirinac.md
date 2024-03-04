@@ -108,7 +108,7 @@ hide:
 	
 	## Glavno rešenje
 	Napravimo segmentno stablo, ali u kom će veličina svakog čvora biti stepen dvojke. Takođe uradimo to iterativno: za najmanje $k$ takvo da $2^k\geq N$ najniži nivo će obuhvatati segmente $[0,0],[1,1],[2,2],...[2^k-1,2^k-1]$, sledeći će $[0,1],[2,3],..,[2^k-2,2^k-1]$, ... koren će obuhvatati jedan segment $[0,2^k-1]$.
-	Upite uvećanja i zbira radimo isto kao u trećem podzadatku, a za mešanje moramo uočiti jednu lepu stvar kod rastavljanja segmenta na čvorove u ovakvom stablu. Najpre primetimo da svi segmenti u upitu imaju veličinu stepena dvojke, kao i njihove polovine. To čini da rastavljanje leve i desne polovine upita na čvorove topološki imaju istu strukturu. Formalnije, ako se leva polovina, redom, rastavlja na čvorove $x_1,x_2,...,x_p$, a desna na $y_1,y_2,...,y_q$, važiće $p=q$ i
+	Upite uvećanja i zbira radimo isto kao u trećem podzadatku, a za mešanje moramo uočiti jednu lepu stvar kod rastavljanja segmenta na čvorove u ovakvom stablu. Najpre primetimo da svi segmenti u upitu imaju veličinu stepena dvojke, kao i njihove polovine. To čini da rastavljanje leve i desne polovine upita na čvorove topološki imaju istu strukturu. Formalnije, ako se leva polovina, redom, rastavlja na čvorove $x_1,x_2,...,x_p$, a desna na $y_1,y_2,...,y_q$, važiće $p = q$ i
 	
 	$$size(x_1)=size(y_1),size(x_2)=size(y_2),...,size(x_p)=size(y_q)$$
 	
