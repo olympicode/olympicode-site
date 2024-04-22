@@ -1,6 +1,6 @@
-2023/2024| okr|01_usamljenost|B1 - Usamljenost|Vladimir Milovanović|Aleksandar Višnjić|Aleksandar Višnjić|Aleksandar Višnjić|300ms|64MB
-2023/2024| okr|02_dejn|B2 - Dejn|Andrej Ivašković|Marko Milenković|Vladimir Milovanović|Andrej Ivašković|1000ms|64MB
-2023/2024| okr|03_bitvajz_oranje|B3 - Bitvajz oranje|Pavle Martinović|Aleksandar Višnjić|Pavle Martinović|Pavle Martinović|2000ms|256MB
-2023/2024| okr|04_xormutacije|A1 - Xormutacije|Marko Milenković|Marko Milenković|Marko Milenković|Pavle Martinović|1000ms|256MB
-2023/2024| okr|05_monopol|A2 - Monopol|Bogdan Petrović|Aleksa Milojević|Aleksa Milisavljević|Aleksa Milisavljević|700ms|64MB
-2023/2024| okr|06_linijopolis|A3 - Linijopolis|Aleksandar Višnjić|Andrej Ivašković|Aleksandar Višnjić|Marko Šišović|4000ms|128MB
+2023/2024| drz|01_neopodniz|B1 - Neopodniz|Aleksandar Višnjić|Aleksandar Višnjić|Mladen Puzić|Dragan Urošević|1000ms|64MB
+2023/2024| drz|02_domski_sletac|B2 - Domski sletač|Marko Milenković|Marko Milenković|Marko Milenković|Dragan Urošević|1000ms|256MB
+2023/2024| drz|03_staruci_prsten|B3 - Starući prsten|Pavle Martinović|Aleksa Milisavljević|Pavle Martinović|Pavle Martinović|1000ms|256MB
+2023/2024| drz|04_i_ili|A1 - I/Ili|Aleksandar Višnjić|Momčilo Tošić|Aleksandar Višnjić|Aleksandar Višnjić|1000ms|64MB
+2023/2024| drz|05_kiki|A2 - Kiki|Marko Milenković|Marko Milenković|Marko Milenković|Dimitrije Erdeljan|1500ms|256MB
+2023/2024| drz|06_palindromska_setnja|A3 - Palindromska šetnja|Aleksa Milisavljević|Aleksa Milisavljević|Aleksa Milisavljević|nPavle Martinović|3000ms|256MB

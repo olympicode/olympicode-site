@@ -36,4 +36,4 @@ Tokom godina nastalo je dosta materijala iz takmičarskog programiranja na srpsk
 - [Arhiva zadataka srednjoškolskih takmičenja do 2013. godine](https://staritakprog.dms.rs)*
 - [Agoge i-training](https://www.dms.rs/agogeit/index.php) - stari materijali sa dodatnih nastava i SIO priprema u Nišu | Andreja Ilić i Nikola Milosavljević*
 
-Ukoliko imate još materijala koji bi mogli biti korisni takmičarima, kontaktirajte nas na [mladen@olympicode.rs](mladen@olympicode.rs). Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odobrili objavljivanje.
+Ukoliko imate još materijala koji bi mogli biti korisni takmičarima, kontaktirajte nas na [mladen@olympicode.rs](mailto:mladen@olympicode.rs). Svi materijali su u trenutku objavljivanja ili javno dostupni, ili su autori odobrili objavljivanje.

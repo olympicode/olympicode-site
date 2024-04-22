@@ -6,7 +6,6 @@ search:
 - [Početna](index.md)
 - Takprog
   - [Takprog Arhiva](takprog/index.md)
-- [Materijali](materijali.md)
   - 2013/2014
     - Kvalifikacije 1
       - [1 - Različiti brojevi](takprog/2013_2014/kv1/01_razliciti_brojevi.md)
@@ -392,3 +391,11 @@ search:
       - [A1 - Xormutacije](takprog/2023_2024/okr/04_xormutacije.md)
       - [A2 - Monopol](takprog/2023_2024/okr/05_monopol.md)
       - [A3 - Linijopolis](takprog/2023_2024/okr/06_linijopolis.md)
+    - Državno
+      - [B1 - Neopodniz](takprog/2023_2024/drz/01_neopodniz.md)
+      - [B2 - Domski sletač](takprog/2023_2024/drz/02_domski_sletac.md)
+      - [B3 - Starući prsten](takprog/2023_2024/drz/03_staruci_prsten.md)
+      - [A1 - I/Ili](takprog/2023_2024/drz/04_i_ili.md)
+      - [A2 - Kiki](takprog/2023_2024/drz/05_kiki.md)
+      - [A3 - Palindromska šetnja](takprog/2023_2024/drz/06_palindromska_setnja.md)
+- [Materijali](materijali.md)
